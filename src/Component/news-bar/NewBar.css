@@ -1,0 +1,29 @@
+.news-bar {
+    width: 100%;
+    height: 100%; 
+    opacity: 50%;
+    overflow: hidden;
+    background-color: #af36be;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.img-bar{
+    z-index: 20;
+    width: 100px;
+    border-radius: 50%;
+}
+.news-item {
+
+    animation: newsAnimation 5s linear infinite;
+}
+    
+@keyframes newsAnimation {
+    0% {
+    transform: translateX(1250px);
+    }
+    100% {
+    transform: translateX(-1000px);
+    }
+}
+

@@ -1,0 +1,27 @@
+/* Nav.css */
+
+.nav-pills .nav-link-link {
+    text-decoration: none; 
+}
+
+.nav-pills .nav-link {
+    background-color: #3c009d;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    cursor: pointer;
+}
+
+.nav-pills .nav-link:hover {
+    background-color: #2a0073;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.btn-pill {
+    border-radius: 20px;
+}
+

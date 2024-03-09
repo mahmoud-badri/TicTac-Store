@@ -1,0 +1,8 @@
+.social{
+    color: white;
+    transition: 0.3s;
+}
+.social:hover{
+    width: 50px;
+    color: af36be;
+}

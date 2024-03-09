@@ -1,0 +1,21 @@
+.container-sale {
+    background-color: #eee;
+    border-radius: 20px;
+}
+
+.discount {
+    position: absolute;
+    left: 32%;
+    top: 20px;
+    background: #af36be;
+    padding: 5px;
+    opacity: 75%;
+    width: 100px;
+    border-radius: 50%;
+}
+.descrip-offer{
+    left: 250px;
+    font-size: 32px;
+    font-weight: bold;
+
+}
